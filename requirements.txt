@@ -1,0 +1,7 @@
+click==8.0.1
+rapidfuzz[speed]==1.5.1
+pandas==1.0.5
+numphy==0.0.1
+black==21.8b0
+pylint==2.10.2
+pytest==6.2.5

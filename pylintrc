@@ -1,0 +1,31 @@
+# -*- mode: conf -*-
+
+[MASTER]
+load-plugins=
+    pylint.extensions.docparams,
+    pylint.extensions.docstyle,
+    pylint.extensions.mccabe
+
+
+[BASIC]
+good-names=
+    e,  # Exception variable alias
+    i,j,k,  # Loop control variables
+    _,__,___  # Unused variables
+    logger
+
+
+[MESSAGE CONTROL]
+disable=
+    duplicate-code,
+    fixme,
+    missing-module-docstring
+
+
+[DESIGN]
+max-args=5
+
+
+[FORMAT]
+max-line-length=79
+indent-string='    '
