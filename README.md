@@ -107,7 +107,7 @@ make test
 ou
 
 ```
-pytest tests/unit --junitxml=reports/report_unit_tests.xml
+pytest tests/unit --junitxml=./reports/report_unit_tests.xml -v
 ```
 
 
